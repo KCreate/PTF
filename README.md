@@ -46,11 +46,11 @@ For example if you want #github#PTF#github# to result in this: <span class="gith
 You'd write:
 ```
 if (str_contains('#github#', $value)) {
-	$value = parseTag('#github#', $value, '<span class="github">', '</span>');
+	$value = parseTag('#github#', $value, `<span class="github">`, '</span>');
 }
 ```
-Parameters:
-1. Tag
-2. String
-3. What to replace the opening tag with
-4. What to replace the closing tag with
+#### Parameters:
+* Tag
+* String
+* What to replace the opening tag with
+* What to replace the closing tag with
