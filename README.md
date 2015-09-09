@@ -42,11 +42,11 @@ $b = parse($a);
 
 ## Customization
 Change the definitions in the parse() function to choose which, and how the tags are being outputted.
-For example if you want #github#PTF#github# to result in this: <span class="github">PTF</span>
+For example if you want #github#PTF#github# to result in this: `<span class="github">PTF</span>`
 You'd write:
 ```
 if (str_contains('#github#', $value)) {
-	$value = parseTag('#github#', $value, `<span class="github">`, '</span>');
+	$value = parseTag('#github#', $value, "<span class="github">", '</span>');
 }
 ```
 #### Parameters:
