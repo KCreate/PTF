@@ -1,8 +1,8 @@
 ## PTF
-Stands for PHP-Tag-Formatting
-Easily implementable
-Fast (i guess?)
-See an example here: http://leonardschuetz.ch/projects/PTF/source.php
+* Stands for PHP-Tag-Formatting
+* Easily implementable
+* Fast (i guess?)
+* See an example here: http://leonardschuetz.ch/projects/PTF/source.php
 
 ## Installation
 Installation is actually pretty ease. Just download the ls_ptf.php file and include it into your project.
