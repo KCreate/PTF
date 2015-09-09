@@ -15,28 +15,28 @@ $a = "Click this #a#http://awesomesite.com - link#a#";
 $b = parse($a);
 // $b will be "Click this <a href="http://awesomesite.com">link</a>"
 ```
-### #a#
+### `#a#`
 ```
 #a#url - title#a#	// regular notation.
 #a#url#a#			// short notation, title will always be Link unless changed.
 ```
 
-### #img#
+### `#img#`
 ```
 #img#url#img#		// regular notation.
 ```
 
-### #hl#
+### `#hl#`
 ```
 #hl#some text#hl#	// regular notation, puts wrapped text in a <span> element with a class called "highlight".
 ```
 
-### #h#
+### `#h#`
 ```
 #h#title#h#			// regular notation, puts wrapped text in a <h1> element.
 ```
 
-### #qo#
+### `#qo#`
 ```
 #qo#awesome cite ~ Leonard Schuetz#qo# // regular notation, puts wrapped text in a <blockquote> element.
 ```
