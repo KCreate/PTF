@@ -5,7 +5,7 @@
 * See an example here: http://leonardschuetz.ch/projects/PTF/source.php
 
 ## Installation
-Installation is actually pretty ease. Just download the ls_ptf.php file and include it into your project.
+Installation is actually pretty easy. Just download the ls_ptf.php file and include it into your project.
 
 ## Usage and pre-supported tags
 To format all the tags inside a string just write:
